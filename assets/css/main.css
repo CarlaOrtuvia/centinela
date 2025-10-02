@@ -688,27 +688,32 @@ section,
 */
 .hero h2 {
   margin: 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 75px;
+  font-weight: 900;
+  text-shadow: 0 0 10px rgba(57, 57, 56, 0.6); /* glow difuso */
 }
 
 .hero p {
   margin: 10px 0 0 0;
   font-size: 24px;
   color: var(--heading-color);
+  text-shadow: 0 0 10px rgba(57, 57, 56, 0.6); /* glow difuso */
 }
 
 .hero .btn-get-started {
-  color: var(--default-color);
-  font-weight: 400;
-  font-size: 16px;
+  background-color: transparent 80%;
+  color: #AC1754;
+  font-weight: 800;
+  font-size: 18px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 40px;
   margin: 30px 0 0 0;
-  border-radius: 4px;
+  border-radius: 5px;
   transition: 0.5s;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 50%);
+  /*border: 2px solid color-mix(in srgb, var(--accent-color), transparent 10%);*/
+  border: 2px solid #AC1754; /* reemplazo directo del color */
+  box-shadow: 0 0 15px rgba(71, 71, 70, 0.827); /* brillo difuminado */
 }
 
 .hero .btn-get-started:hover {
